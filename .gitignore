@@ -1,0 +1,4 @@
+gson/
+__pycache__/
+*.pyc
+.env
