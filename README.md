@@ -5,12 +5,12 @@ GitSentinel is a full-stack analytics system that analyzes Git repositories to i
 
 ## 🔥 Features
 
-* 📊 **File Risk Analysis** — Detect high-risk files using churn + commit patterns
-* 🐞 **Bug Density Tracking** — Identify files with frequent bug-related commits
-* 👨‍💻 **Developer Risk Scoring** — Highlight contributors linked to risky changes
-* 📈 **Risk Timeline** — Track code churn trends over time
-* 🌐 **Live Dashboard** — Interactive charts powered by Chart.js
-* ⚡ **Real-time API** — Built with FastAPI
+* **File Risk Analysis** — Detect high-risk files using churn + commit patterns
+* **Bug Density Tracking** — Identify files with frequent bug-related commits
+* **Developer Risk Scoring** — Highlight contributors linked to risky changes
+* **Risk Timeline** — Track code churn trends over time
+* **Live Dashboard** — Interactive charts powered by Chart.js
+* **Real-time API** — Built with FastAPI
 
 ---
 
@@ -59,7 +59,7 @@ GitSentinel is a full-stack analytics system that analyzes Git repositories to i
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/your-username/GitSentinel.git
+git clone https://github.com/theanamsaqib/GitSentinel.git
 cd GitSentinel
 ```
 
@@ -123,14 +123,6 @@ uvicorn app.api.main:app --reload
 * Ensuring consistency between local and cloud DB
 * Building a full data pipeline from scratch
 
----
-
-## 🚀 Future Improvements
-
-* 🔍 File-level drill-down (click → history view)
-* 📊 Advanced ML-based risk prediction
-* 🌐 Multi-repository support
-* 🔐 Authentication & user-based dashboards
 
 ---
 
