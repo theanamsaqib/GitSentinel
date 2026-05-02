@@ -10,7 +10,7 @@ def run_ingestion():
     repo_path = "gson"
 
     count = 0
-    max_commits = 500   
+    max_commits = 100   
 
     for commit in Repository(repo_path).traverse_commits():
         print("PROCESSING:", commit.hash)
@@ -38,7 +38,7 @@ def run_ingestion():
             ingest_commit(session, repo_path, data)
             count += 1
 
-            print(f"Inserted {count}")
+            print(f"✅ Inserted {count}")
 
             if count >= max_commits:
                 print(" ...STOPPING...")
